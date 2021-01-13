@@ -5,10 +5,13 @@
 
 [build.environment]
   HUGO_VERSION = "0.78.1"
-  HUGO_ENABLEGITINFO = "true"
+  HUGO_THEME = "repo"
+  HUGO_BASEURL = "/"
 
 [context.production.environment]
   HUGO_ENV = "production"
+
+
 
 # [context.deploy-preview]
 #   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
