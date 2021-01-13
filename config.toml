@@ -1,5 +1,6 @@
 ######################## default configuration ####################
-baseURL = "https://www.ecstatic-thompson-9c10a6.netlify.app/"
+# baseURL = "https://ecstatic-thompson-9c10a6.netlify.app/"
+baseURL = "/"
 title = "Reader | Hugo Personal Blog Template"
 theme = "reader"
 # post pagination
