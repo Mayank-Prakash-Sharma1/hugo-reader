@@ -1,6 +1,7 @@
 
 [build]
-  command = "hugo --gc --minify -b $URL"
+  # command = "hugo --gc --minify -b $URL"
+  command = "hugo --gc --minify $URL"
   publish = "public"
 
 [build.environment]
@@ -8,8 +9,8 @@
   HUGO_VERSION = "0.78.1"
   HUGO_ENABLEGITINFO = "true"
 
-[context.production.environment]
-  HUGO_ENV = "production"
+# [context.production.environment]
+#   HUGO_ENV = "production"
 
 # [[headers]]
 #   for = "*.webmanifest"
