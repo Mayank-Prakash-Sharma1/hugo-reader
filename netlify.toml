@@ -1,7 +1,7 @@
 [build]
-  # command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
   # command = "hugo --minify --gc --themesDir ../.."
-  command = "hugo --minify --gc"
+  # command = "hugo --minify --gc"
   publish = "public"
 
 [build.environment]
