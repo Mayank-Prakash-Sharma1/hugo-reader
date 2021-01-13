@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://demo.themefisher.com/reader-hugo/"
+baseURL = "http://ecstatic-thompson-9c10a6/"
 title = "Reader | Hugo Personal Blog Template"
 theme = "reader"
 # post pagination
